@@ -24,7 +24,7 @@ body{
     width: 100%;
     margin-top: 2%;
     /* for debug */
-    height: 600px;
+    height: 400px;
     background-color: blue;
 }
 .firts-row{
@@ -52,17 +52,17 @@ body{
     margin-right: 2%;
 }
 .first-col,.last-col{
-    width: 18%;
+    width: 23%;
 }
 .mid-col{
-    width: 60%;
+    width: 50%;
 }
 .second-row::after {
     content: "";
     clear: both;
     display: table;
 }
-footer{
+.footer{
     width: 100%;
     margin-top: 2%;
     /* for debug */

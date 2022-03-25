@@ -24,7 +24,7 @@ body{
     width: 100%;
     margin-top: 2%;
     /* for debug */
-    height: 800px;
+    height: 600px;
     background-color: blue;
 }
 .firts-row{
@@ -36,17 +36,17 @@ body{
 .second-row{
     width: 100%;
     margin: 2% 0; 
-    background-color: lightblue;
+    background-color: blue;
     /* for debug */
     height: 76%;
-    border: solid 2px black;
+    /* border: solid 2px black; */
 }
 .first-col, .mid-col ,.last-col{
     float: left;
     /* for debug */
     height: 100%;
     background-color: lightblue;
-    border: solid black 2px;
+    /* border: solid black 2px; */
 }
 .first-col, .mid-col{
     margin-right: 2%;
@@ -61,5 +61,14 @@ body{
     content: "";
     clear: both;
     display: table;
-  }
+}
+footer{
+    width: 100%;
+    margin-top: 2%;
+    /* for debug */
+    height: 100px;
+    background-color: violet;
+    margin-bottom: 2%;
+}
+
 

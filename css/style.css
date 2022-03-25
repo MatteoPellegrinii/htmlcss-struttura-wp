@@ -7,9 +7,59 @@ body{
     margin: 0 10%;
 }
 .header{
-    background-color: violet;
     width: 100%;
     margin-top: 2%;
     /* for debug */
     height: 100px;
+    background-color: violet;
 }
+.section-prima{
+    width: 100%;
+    margin-top: 2%;
+    /* for debug */
+    height: 300px;
+    background-color: orange;
+}
+.section-seconda{
+    width: 100%;
+    margin-top: 2%;
+    /* for debug */
+    height: 800px;
+    background-color: blue;
+}
+.firts-row{
+    width: 100%;
+    /* for debug */
+    height: 20%;
+    background-color: lightblue;
+}
+.second-row{
+    width: 100%;
+    margin: 2% 0; 
+    background-color: lightblue;
+    /* for debug */
+    height: 76%;
+    border: solid 2px black;
+}
+.first-col, .mid-col ,.last-col{
+    float: left;
+    /* for debug */
+    height: 100%;
+    background-color: lightblue;
+    border: solid black 2px;
+}
+.first-col, .mid-col{
+    margin-right: 2%;
+}
+.first-col,.last-col{
+    width: 18%;
+}
+.mid-col{
+    width: 60%;
+}
+.second-row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
